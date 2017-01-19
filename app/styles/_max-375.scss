@@ -1,0 +1,86 @@
+$icon-font-path: '../fonts/';
+
+@media only screen and (max-width: 375px) {
+
+ .phone {
+  font-size: 12px;
+ }
+
+ .title-block {
+
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+ }
+
+ h2 {
+  font-size: 25px;
+ }
+
+ .column {
+
+  ul {
+
+    li {
+      font-size: 15px;
+
+      &:before {
+        content:"";
+        background: url(../images/list-icon-mob.png) no-repeat;
+        width: 25px;
+        height: 25px;
+        margin-right: 15px;
+      }
+
+    }
+
+  }
+
+ }
+
+ .content-bottom-wrap {
+
+    ul {
+
+      li {
+
+        &:before {
+        content:"";
+        background: url(../images/list-icon-s-mob.png) no-repeat;
+        width: 15px;
+        height: 12px;
+      }
+      }
+
+    }
+
+  }
+
+  .column-info-wrap {
+
+    .price-title {
+
+      span {
+        font-size: 25px;
+      }
+
+    }
+
+    .title-info {
+      font-size: 25px;
+    }
+
+  }
+
+  //section-3
+
+  .value {
+    font-size: 25px;
+  }  
+  
+}

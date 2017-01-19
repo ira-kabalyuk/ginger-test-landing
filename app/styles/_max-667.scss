@@ -1,0 +1,42 @@
+$icon-font-path: '../fonts/';
+
+@media only screen and (max-width: 667px) {
+
+ .menu-block {
+ 	height: 50px;
+ }
+
+ .navbar-collapse.collapse.in {
+ 	top: 49px;
+ }
+
+ .title-block {
+
+	h1 {
+		font-size: 30px;
+	}
+
+	p {
+		font-size: 20px;
+	}
+
+ }
+
+ h2 {
+		font-size: 30px;
+	}
+
+ .button-block { 	
+ 	margin-top: 8px;
+ } 
+
+ .active-btn,
+ .btn {
+ 	font-size: 15px;
+ }
+
+ .traingle-block {
+    width: 80%;
+  } 
+  
+}

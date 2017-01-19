@@ -1,0 +1,107 @@
+$icon-font-path: '../fonts/';
+
+@media only screen and (min-width: 768px) {
+
+  .menu-block {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .navbar-nav {
+    
+    .nav-item {
+
+      a {
+        padding: 0 10px;
+      }
+
+    }
+
+  }
+
+  .section-1 {
+    
+    .right-colunm {
+
+      ul {
+        float: none;
+      }
+
+    }
+
+  }
+
+  .section-wrap {
+    display: block;
+  }
+
+  .section-2 {
+
+    .right-colunm {
+      margin-top: 20px;
+      float: left;
+    }
+
+    .column {
+      height: 100%;
+    }
+  
+  }
+  
+}
+
+
+@media only screen and (min-width: 992px) {
+
+  .menu-block {
+    width: 940px;
+  }
+
+  .navbar-nav {
+    
+    .nav-item {
+
+      a {
+        padding: 0 15px;
+      }
+
+    }
+
+  }
+
+  .section-1 {
+    
+    .right-colunm {
+
+      ul {
+        float: right;
+      }
+
+    }
+
+  }
+
+  .section-wrap {
+    display: flex;
+    align-items: stretch;
+    height: 360px;
+  }
+
+  .section-2 {
+
+    .right-colunm {
+      margin-top: 0;      
+    }     
+  
+  }
+  
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .menu-block {
+    width: 1140px;
+  }
+  
+}
+
